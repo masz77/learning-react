@@ -1,4 +1,4 @@
-import UseBookSearch from "../components/UseBookSearch";
+import UseBookSearch from "../../components/UseBookSearch";
 import { useState, useEffect } from "react";
 
 export default function InfiniteScrolling() {
@@ -12,6 +12,7 @@ export default function InfiniteScrolling() {
     return () => clearTimeout(timeOutId);
   }, [query]);
 
+  //unfinished
   const [loading, books, errors, hasMore] = UseBookSearch(query, page);
 
   function searchHandler(event) {
