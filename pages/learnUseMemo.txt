@@ -1,0 +1,1 @@
+https://blog.webdevsimplified.com/2020-05/memoization-in-react/
