@@ -5,6 +5,7 @@ import { useRef } from "react";
 export default function MyNavbar() {
   const __href = [
     "/",
+    "/currencyConverter",
     "/learnUseEffect",
     "/learnUseRef",
     "/InfiniteScrolling",
