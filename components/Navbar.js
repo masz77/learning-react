@@ -1,6 +1,7 @@
-import { Navbar, Container, Button } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import Link from "next/link";
 import { useRef } from "react";
+import { Button } from "antd";
 
 export default function MyNavbar() {
   const __href = [
@@ -17,7 +18,7 @@ export default function MyNavbar() {
         <Container>
           {__href.map((e) => (
             <Link passHref key={e} href={e}>
-              <Button>{e}</Button>
+              <Button type="primary">{e}</Button>
             </Link>
           ))}
 
